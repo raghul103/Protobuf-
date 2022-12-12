@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package values;
+
+message Data
+{
+  
+    float Temp = 2;
+    int32 count = 3;
+    bool flag = 4;
+}
